@@ -1,5 +1,8 @@
 conda_build_tool: rattler-build
-noarch_platforms: linux_64
+noarch_platforms:
+  - linux_64
+  - linux_aarch64
+  - linux_ppc64le
 github:
   branch_name: main
   tooling_branch_name: main
