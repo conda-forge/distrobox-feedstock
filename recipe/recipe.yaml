@@ -11,12 +11,13 @@ source:
 
 build:
   noarch: generic
-  number: 0
+  number: 1
   script: |
     ./install --prefix "${PREFIX}"
 
 requirements:
-  run: __linux
+  run:
+    - __linux
 
 tests:
   - script:
